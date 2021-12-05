@@ -8,10 +8,10 @@ import requests
 from pathlib import Path
 
 # save images to this folder
-images_folder_path = "/Users/Kejkaew/Downloads/test/"
+images_folder_path = "/Users/YourName/Downloads/test/"
 
 
-driver = webdriver.Chrome('/Users/Kejkaew/Downloads/test/chromedriver')
+driver = webdriver.Chrome('/Users/YourName/Downloads/test/chromedriver')
 driver.get('https://www.google.com/')
 search = driver.find_element_by_name('q')
 search.send_keys('korean fashion casual',Keys.ENTER)

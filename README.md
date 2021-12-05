@@ -1,9 +1,9 @@
 # Image-web-scraper
 
-This Python file can automatically download full size images from google.com.
+This Python file can automatically download full-size images from google.com.
 
 ## Usage
-To do that, you need to edit some codes including: 
+To use this, you need to edit some codes including: 
 * Path to chromedriver
 * The Thai word **ค้นรูป**, you may change to **Images**
 * Path to saved image folder
